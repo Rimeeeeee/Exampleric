@@ -1,9 +1,10 @@
 let add=0;
-let additionEl=document.getElementbyId("cat-no");
+let additionEl=document.getElementById("cat-no");
 console.log(additionEl);
 function addition(){
+    add=add+1;
   additionEl.innerText=add;
-  add=add+1;
-  console.log(add);
-}
-  
+      }
+      function save(){
+          console.log(add);
+      }
